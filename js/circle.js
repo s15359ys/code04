@@ -9,7 +9,7 @@ function A(a){
  return c;
 }
 function C(a,b,c){
- var d = Math.max(a*a,b*b,c*c);
- var e = d*Math.PI;
+ var d = Math.max(a,b,c);
+ var e = A(d);
  return e;
 }
